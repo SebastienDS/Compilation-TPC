@@ -1,0 +1,33 @@
+int a;
+char b;
+
+int sum(int a, int b) {
+    return a + b;
+}
+
+int main(void) {
+    int a, b;
+    char c, d;
+    char res;
+    int sum;
+    
+    a = 1;
+    b = 2;
+    c = 3;
+    d = 4;
+    c = 'c';
+    d = 'd';
+
+    res = ((a * d) - (b * c));
+    // res = sum(a, b);
+    // sum(a, b);
+
+    if (res) {}
+
+    while (res) {}
+
+    switch (res) {}
+    
+    res = -res;
+    return 0;
+}

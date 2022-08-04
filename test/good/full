@@ -1,0 +1,66 @@
+// Comment
+
+/* Comment */
+
+int i;
+char c;
+
+int i2, i3;
+char c2, c3;
+
+// Comment
+
+/* Comment */
+
+void func1(int i1, int i2, int i3, char c) {
+    int a;
+    a = 712;
+    a = ((a + a) * (a - 1) % 4546654 && 1) || (1 != (2 / 1));
+
+    if (a) {
+        while (!a == 0) {
+            a = a - 1;
+        }
+    }
+}
+
+// Comment
+
+/* Comment */
+
+int func2(int a, int b) {
+    return a + b;
+}
+
+int main(void) {
+    int a, b;
+    int res;
+
+    a = 1;
+    b = 3;
+
+    func1(i, i2, i3, c);
+    
+    res = func2(a, b);
+
+    switch (res) {
+        case 0:
+            func2(a, b);
+            break;
+        case 1:
+        case 2:
+            break;
+        default:
+            func2(a, b);
+    }
+
+    // Comment
+
+    /* Comment */
+
+    return 0;
+}
+
+// Comment
+
+/* Comment */

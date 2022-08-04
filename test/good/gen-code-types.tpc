@@ -1,0 +1,40 @@
+/* gen-code-types.tpc */
+
+/* Test file for TPC */
+
+int test(void) {
+	int a;
+
+	switch (-1) {
+		case -1:
+		case 0:
+			a = 2;
+			break;
+		default:
+			return 5;
+	}
+
+	return -1;
+}
+	
+int main(void)  {
+	return test();
+}
+
+
+// mov r12, 5
+// cmp r12, -1
+// jne next_case
+// 	// body
+// next_case:
+// cmp r12, 0
+// jne next_case
+// 	mov a, 2
+// 	jmp label_0
+// next_case:
+
+// // default
+
+// label_1:
+// label_0:
+// labeldefault:

@@ -1,0 +1,9 @@
+int main(void) {
+    int var;
+    var = 1;
+    
+    if var {
+    }
+
+    return 0;
+}

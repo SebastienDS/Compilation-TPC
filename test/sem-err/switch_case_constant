@@ -1,0 +1,14 @@
+int true(void) {
+    return 1;
+}
+
+int main(void) {
+    switch (1) {
+        case 5 + 412 + 4:
+            break;
+        case true():
+            break;
+    }
+    
+    return 0;
+}

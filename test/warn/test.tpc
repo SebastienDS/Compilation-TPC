@@ -1,0 +1,82 @@
+int sum(int a, int b) {
+    return a + b;
+}
+
+int factorial_rec(int i) {
+    if (i == 0) {
+        return 1;
+    }
+    return i * factorial_rec(i - 1);
+}
+
+int factorial_iter(int i) {
+    int sum;
+    sum = 1;
+
+    while (i > 0) {
+        sum = sum * i;
+        i = i - 1;
+    }
+
+    return sum;
+}
+
+int my_getint(void) {
+    int number;
+    char digit;
+
+    number = 0;
+
+    while (1) {
+        digit = getchar();
+        if (digit < '0' || digit > '9') return 0;
+
+        number = (number * 10) + (digit - '0');
+    }
+
+    return number;
+}
+
+void my_putint(int number) {
+    char digit;
+
+    while (number) {
+        digit = '0' + (number % 10);
+        putchar(digit);
+        number = number / 10;
+    }
+}
+
+int true(void) {
+    return 1;
+}
+
+int false(void) {
+    return 0;
+}
+
+void test(void) {
+    int number;
+    int res;
+
+    while (1) {
+        putchar('>');
+        putchar('>');
+        putchar('>');
+        putchar(' ');
+        number = getint();
+        if (number == 0) {
+            return;
+        }
+
+        res = factorial_iter(number);
+        putint(res);
+        res = factorial_rec(number);
+        putint(res);
+    }
+}
+
+int main(void) {
+    test();
+    return 0;
+}

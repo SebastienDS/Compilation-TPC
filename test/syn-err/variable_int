@@ -1,0 +1,5 @@
+int main(void) {
+    int variable;
+    variable = &&;
+    return 0;
+}

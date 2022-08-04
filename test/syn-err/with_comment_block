@@ -1,0 +1,6 @@
+int main(void) {
+    /* COMMENT
+    MULTIPLE
+    LINES
+    return 0;
+}

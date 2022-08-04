@@ -1,0 +1,8 @@
+int main(void) {
+    char variable;
+    char a;
+
+    variable = '0';
+    a = 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa';
+    return 0;
+}

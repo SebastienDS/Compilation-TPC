@@ -1,0 +1,24 @@
+int func(int n) {
+    return 0;
+}
+
+int main(void) {
+    int n;
+    n = 3;
+
+    switch (n) {
+        case 2 + 2:
+        case 3:
+        case 3 || 2:
+        case 0:
+        case 'a':
+            break;
+    }
+
+    switch (n) {
+        default:
+            break;
+    }
+
+    return 0;
+}

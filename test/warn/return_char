@@ -1,0 +1,7 @@
+int main(void) {
+    return 0;
+}
+
+char test(void) {
+    return 0;
+}

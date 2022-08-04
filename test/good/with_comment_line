@@ -1,0 +1,4 @@
+int main(void) {
+    // a very good comment
+    return 0;
+}

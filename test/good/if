@@ -1,0 +1,14 @@
+int main(void) {
+    int var;
+    var = 1;
+
+    if (var || var && ( var && var || (!var))) {
+    }
+    else {
+        var = 2;
+    }
+    
+    if (1);
+
+    return 0;
+}

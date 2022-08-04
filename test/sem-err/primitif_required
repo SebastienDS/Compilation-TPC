@@ -1,0 +1,6 @@
+int main(void) {
+    test(test);
+    return 0;
+}
+
+void test(int a) {}
